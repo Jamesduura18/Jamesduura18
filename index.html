@@ -1,15 +1,839 @@
-<!DOCTYPE html>
-<html>
+// 1.VARIABLES LESSON
+//var ,const,let
+/*let firstName= 'John';
+let lastName ='Doe';
+let age =30 ;
+console.log(firstName,lastName);
+console.log(age);
+// Reassigning variables
+age =31;
+console.log(age);
+
+const person = {
+  name:'Brad'
+}
+person.name ='Johnny'
+person.email='Brad23@gmail.com';
+console.log(person);
+//Declare multiple values at once
+let a,b,c;
+
+const d=10 ,e=12,f =8;
+console.log(f);*/
+// 2-DATA TYPES LESSON
+// String 
+/*const firstName = 'Sara';
+// Number
+const age=30;
+const temp = 98.9
+  //Booleans
+  const hasKids = true 
+  //Null
+  const aptNumber = null
+  //Undefined 
+  //let score;
+  const score= undefined;
+  //Symbol 
+  const id = Symbol('id');
+  //BigInt
+f  const n = 830020925639940038377373884n;
+  //Refer types
+  const numbers = [1,2,3,4,5];
+  const person ={
+    name:'Brad'
+  }
+  function sayHelloceigcc CD vdb{
+    console.log('hello john')
+  }
+const output=sayHello;
+console.log(output , typeof output);;
+//  values are stored on the stack
+const name = 'Johnny'
+const age = 30;
+ const person={!
+  name :'Brad',
+   age:40,
+};
+let newPerson = person;
+
+console.log(person,newPerson);
+let newName= name;
+newName='Johnathan'
+//console.log(name,newName);
+
+newPerson.name= 'Bradley'*/
+
+//Type Conversion 
+// Change string to a number
+//let amount ='Hello' ;
+//amount = parseInt(amount);
+//amount =+amount;
+//amount = Number(amount);
+// change number to a string 
+//amount = amount.toString();
+//amount= String(amount)
+// convert string to decimal 
+//amount = parseFloat(amount);
+// Convert number to a boolean
+
+//amount = Boolean(amount)
+/*console.log(undefined+undefined)
+console.log('gelo'/3)
+console.log(1+ NaN)
+console.log(amount, typeof amount);*/
+
+
+
+
+
+
+
+
+//Operators
+// 1.Arithmetic Operators 
+/*
+let x;
+x=5+5
+x=5-5
+x=5*5
+x=12%5
+
+//Concatenation
+x= 'Hello'+' '+'World'
+
+// Exponent 
+x=4**3
+// Increment
+x= 1;
+//x=x+1
+x++
+//Decrement 
+//x=x-1
+x--;
+
+//2. Assignment Operators
+x=10;
+x+=5
+x-=5
+x*=5
+x/=5
+x%=5
+x**=5
+
+//3. Comparison Operators 
+x =2=='2';
+
+x= 2==='2';
+
+x= 2 !='2'
+
+x= 2!=='2'
+
+x=10>5;
+x=10<5
+x=10>=5
+x=10<=5
+console.log(x);*/
+
+
+//Type Coercion
+/*let x;
+
+x =5 + '5'
+
+
+x= 5 + Number('5');
+
+
+x= 5 *'5'
+
+x = 5 +null
+x= Number(true)
+x= Number(false)
+
+x=5 +true
+x =5 + false
+console.log(x, typeof x)*/
+
+/*const name='John'
+const age ='31'
+
+x= ' Hello, my name is ' +  name + ' and i am '+ age + ' years old'
+//Template Literals
+
+x=` Hello, my name is ${name} and i am ${age} years of old`
+
+
+
+// String Properties and Methods 
+const s =new String ('Hello World');
+
+x = typeof s;
+
+x = s.length
+
+// Access value by key
+x = s[4]
+
+x=s.__proto__;
+
+x= s.toUpperCase();
+x= s.toLowerCase();
+
+x= s.substring(0,5)
+ console.log(x)
+/*x=s.slice(-11,-6)
+
+
+x='                        Hello World'
+x=x.trim()
+
+x= s.replace('World','Afrika ')
+
+x= s.includes('Wor')
+
+x=s.valueOf();
+x=s.split('');;
+console.log(x);
+const d='developer'
+
+x=d.charAt(0).toUpperCase + d.slice(1)
+
+console.log(x);
+
+function sayYourName(){
+  console.log('Hello Afrika')
+}
+const output = sayYourName
+console.log(output , typeof output)
+
+const arr =[12,31,85,84]
+
+//x=arr.push(32)
+//x= arr.unshift(38)
+//x=arr.pop()
+
+
+const fruits = new Array('apple','grapes','pineapple ')
+fruits.push('strawberry ')
+
+const post ={
+  id:1, 
+  title:'Post One', 
+  body:'This is the body'
+}
+
+// Convert to JSON
+const str = JSON.stringify(post)
+
+console.log(str)*/
+
+/*function add(a,b) {
+  return a+ b 
+
+console.log(add(2,1));
+
+//Arrow function
+
+const add = (a,b) => {
+  return a + b
+};
+console.log(add(3,2));
+
+//implicit return
+ 
+const subtra = (a,b)=> a-b
+console.log(subtra(5,1)) */
+// Can live off () with a single param
+/*const double = a => a*6
+
+//Returning an object
+const createObj=() =>({
+  name : 'Brad'
+})
+*/
+/*const numbers  = [1,2,3,4,5];
+numbers.forEach(function (n) {
+  console.log(n)
+})
+numbers.forEach(n =>console.log(n))
+
+const  characters  = ['Maxwell','Bernard',{
+  id: 1,
+  details :{
+    fullNameOfThePerson:'Pear Keelson',
+    destination:'25North Agona Swedru-Ghana off Cape Coast Road',
+    Age:'Cannot really tell'
+  }
+},[
+  'definiteCharacters','AndManyMore'
+  ]]
+  characters.forEach(function(c){
+    console.log(c)
+  });
+  //Arrow function in a callback
+characters.forEach(c=> console.log(c))
+
+console.log(double(5))
+console.log(createObj())
+*/
+/*
+(function(){
+  const user = 'John';
+  console.log(user);
+  
+  const objectGoCollectWotowoto=()=>
+  console.log('James you gotta continue okay , though you gonna come aceoss many trenches ');
+  objectGoCollectWotowoto();
+  
+})();
+(function Amant(user) {
+  
+  console.log( 'Hello'+ user)
+})(' Amambra')*/
+
+// Challenge 1
+
+//(function getCelcius(fahrenheitValue){
+  //console.log(`The temperature is ${
+//(fahrenheitValue -32)*5/9}`)
+  
+//})(40);
+/*const getCelsius = (f)=>{
+  return `The temperature is ${(f-32)*5/9} degrees celsius`
+}
+console.log(getCelsius(32));
+//Challenge 2
+function minMax(areayOfNumbers){
+const min =Math.min(...areayOfNumbers);
+const max  = Math.max(...areayOfNumbers)
+console.log(`min:${min},max:${max}`)
+}
+minMax([1,2,3,4,5])
+
+//Challenge 3
+((length,width)=>{
+  const result= length * width
+  const output =`The area of a rectangle with a length of ${length} and a width of ${width} is ${result}`;
+  console.log(output)
+  
+})(10,5)
+
+const areaOfARectangle=(length,width)=>{
+  result = length * width 
+  return `The area of a rectangle with a length of ${length} and a width of ${width} is ${result}`
+}
+console.log(areaOfARectangle(10,5))
+
+
+const x = 100;
+const y =  50;
+
+function getSum(n1,n2) {
+  let sum = n1 + n2 ;
+  return sum;
+}
+const sum1 = getSum(x,y)
+const sum2 = getSum(10,5)
+console.log(sum1, sum2)
+
+
+//Example 
+function first () {
+ console.log('first...') 
+ third ();
+}
+function second() {
+  console.log('second...')
+  second();
+}
+function third() {
+console.log('third...')
+}
+
+
+first ()
+
+
+//Logic and its operations
+// if statements 
+if (true){
+  
+  console.log('This is true')
+}
+
+if (false){
+  console.log('This is NOT true ')
+}
+
+
+const x=10
+const y=5
+
+if(x>=y){
+  console.log(`${x} is greater than or equal to ${y}`)
+}
+if (x===y){
+  console.log(`${x} is equal to ${y}`)
+}
+else{console.log(`${x} is NOT equal to ${y}`)
+  }
+  
+  if (x!==y){
+    const z = 20;
+    console.log(`${z} is 20`)
+  }
+  //Shorthand if
+  if (x=>y)
+  console.log(`This`),
+  console.log('This is true')
+  else console.log('Is false')
+  
+  // Else if and nested if
+  const d = new Date (2024,12,23,20,30,25)
+  
+  const hour = d.getHours()
+  
+  
+  console.log(hour)
+  
+  if (hour<12){
+    console.log('Good morning ')
+    if (hour===6){
+      console.log('Wake Up')
+    }
+  }
+  else if (hour <18 ){
+    console.log('Good Afternoon')
+  }
+  else{
+    console.log('Good Night')
+    if(hour ===20) {
+      console.log('You can sleep')
+      
+    }
+  }
+  if (hour>=7 && hour<15){
+    console.log('It is work time!')
+  }
+  if (hour===6 || hour ===20){
+    console.log('Brush your teeth')
+  }
+  
+  // Switch Statement 
+  
+  const d = new Date (2028,2,23,9,30,35)
+  const month = d.getMonth()
+  const year= d.getFullYear()
+  
+  switch (month) {
+    case 1:
+      console.log('January')
+      break;
+    case 2:
+      console.log('February')
+      break;
+      case 3:
+        console.log('March')
+    default:
+    console.log('None')
+  }
+  switch (true) {
+    case year ===2023:
+      console.log('New Year')
+      break;
+    case year <2023:
+      console.log('Let us hope for the best ')
+    break ;
+    case year>2023 && year< 2026:
+      console.log('Is going to be good')
+      break;
+    default:
+      console.log('okay,understood')
+  }*/
+  
+/*  
+  function calculator(num1,num2,operator) {
+    let result;
+    switch (operator){
+      case '+':
+        result = num1 + num2;
+        break
+        case '*':
+          result=num1 * num2;
+          break ;
+          case '-':
+          result = num1 -num2;
+          break ;
+          case '/':
+            result= num1/num2;
+        default :
+          result = `Error message `
+        }
+        console.log(result)
+        return result
+     }
+  
+  calculator(10,2,) g 
+  
+  
+  const x = 'a '
+  
+  if(x){
+    console.log('This is truthy')
+  }
+  else {
+    console.log('This is falsy')
+  }
+  
+  
+  console.log(Boolean(x))
+  
+  
+  
+  function calculator(num1,num2,operator){
+    let result;
+    if(operator==='+'){
+      result = num1 + num2
+    }
+    else if (operator==='-') {
+      result =num1 - num2
+    }
+    else if (operator==='*') {
+      result= num1 * num2
+    }
+    else if (operator==='/') {
+      result = num1/ num2
+    }
+    else if (operator==='') {
+      console.log('Invalid request ')
+    }
+    console.log(result)
     
-    <head></head>
-    <body>
-        
-    <h1>
-        
-        hello
-    </h1>
-    </body>
+    return result
     
+  }
+  
+  calculator(10,5,'/')
+  
+  
+  //Truthy and falsy caveats
+  const children = 3;
+  if (children) {
+    console.log(`You have ${children} children`)
+  } else {
+    console.log('Please enter the number of children')
+  }
+  // Checking fo emp arrays
+  const post = [0]
+  if (post>post.length) {
+    console.log('List post')
+  } else {
+  console.log('No post')
+  }
+  
+  
+  // Checking for enpty object 
+  
+  const user = {
+    name:'Brad'
+  }
+  if (Object.keys(user).length>0) {
+    console.log('List user')
     
+  } else {
+    console.log('No user')
+  }
+  
+  // Logic Operator 
+  //And -& Operator  
+  console.log(10<8 && 45<67)
+console.log(10>2 && 25<4 || 324> 323)
+  
+  
+  
+const post =['Post one ', 'Post two']  
+  post.length>0 && console.log(post[0])
+  
+  
+  // ||-Will return the value which is true
+  
+  let a;
+  a= 20||56
+  a= ''||78;
+  a= '' || 0 || undefined
+  console.log(a)
+  
+// ??-Will return the truthy value wh we have null or undefined   
+  
+  let b ;
+  
+  b= null ?? 12
+  b = 14?? undefined
+  console.log(b)
+  
+  
+  // Logical Assignment 
+  
+  // ||= :It assigns the right side value if the left side value is falsy
+  let a = null;
+   a||=10
+  console.log(a)
+  
+  
+  // &&= :Assigns the right side value only if the left side value is truthy 
+  
+  let a = 10
+  
+  a &&= 5
+  
+  console.log(a)
+  
+  
+  // ??= :Assigns the right side value only if the left side value is undefined or null
+  
+  let a = null
+  
+  a??=6
+  
+  console.log(a) */
+  
+  
+  
+  // Ternary Operator
+  /*const age = 17;
+  if (age>=18) {
+    console.log('You can vote!')
+  } else {
+    console.log('You cannot vote')
+  }
+  
+  //  By using ternary operator 
+  age >= 18 ? console.log('You can vote!'): console.log('You cannot vote')
+  
+  // Assigning a conditional value to a variable
+  const canVote = age>=18 ? true :false
+  
+  console.log(canVote)
+  
+  
+  const canVote2 = age>=18? 'You can vote!':'You can not vote '
+  
+  const auth =  1;*/
+//  let redirect;
+//  if (auth) {
+//    alert('Welcom me to the dashboard ')
+//    redirect ='/dashboard '
+//  }
+//  else {
+//    alert ('Access denied')
+//    redirect= '/login'
+//  }
+//  console.log(redirect)
+  
+ // const redirect  = auth ? (
+  //  alert('Welcome to dashboard'),
+//    '/dashboard'
     
-</html>
+   // ) :(
+ //   alert('Access Denied'),
+    //'/login'
+     // )
+
+
+//console.log(redirect)
+//auth?(
+//  'Welcome to the dashboard',
+//  console.log('/dashboard ')) :null;
+//auth &&(
+//  'Welcome to the dashboard',
+//  console.log('/dashboard ')) 
+
+//Loops & high order  array meth 
+
+/*for(let i =0 ;i <=10 ;i++){
+  if(i===7){
+    console.log('7 is my lucky number')
+  } else {
+     console.log('Number' + i)
+  }
+}
+// Nested loops
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i)
+
+    for (let k = 0; k <= 20; k++) {
+      console.log(`${i}/${k}=${i/k}`)
+    }
+  }
+
+
+// Loop through an array
+
+const names =[ 'Brad', 'Sam', 'Sara', 'John', 'Tim']
+for (let i = 0; i <names.length; i++) {
+
+if (i===2 || names[i]==='John') {
+  console.log(names[i]+' is the best')
+  
+} else {
+   console.log(names[i])
+}
+ 
+}*/
+//Break && Continue
+
+//Break
+
+for (let i = 0; i <= 20; i++) {
+  
+  if (i===15) {
+    console.log('Breaking.....')
+    break;
+  }
+  
+  
+  
+console.log(i)
+}
+ 
+ // Continue
+for (let i = 0; i <= 20; i++) {
+  
+  if (i===13) {
+    console.log('skipping 13.....')
+    continue;;
+  }
+
+  
+}
+
+//for (const names of cities){
+//  console.log(names)
+//}
+
+const numbers = [1,2,3,4,5,6,7,8,9,10]
+const doubleMe = numbers
+.map((sqrt)=>Math.sqrt(sqrt))
+.map((sqrt)=>sqrt*2)
+console.log(doubleMe);
+const squareDoubleNums= numbers
+.map(function(number){
+  return Math.sqrt(number)
+})
+.map(function(doubled){
+  return doubled*2
+})
+
+
+//console.log(squareDoubleNums)
+
+//Array.reduce 
+
+const numBers = [1,2,3,4,5,6,7,8,9,10]
+
+const kwakye = numBers.reduce(function(accumuator,currentValue) {
+return accumuator+ currentValue
+},initialValue=0)
+
+
+
+//console.log(kwakye)
+
+
+
+
+
+
+const cart = 
+[
+  {id:1,name:'Product 1',price:130 },
+  {id:1,name:'Product 3',price:150 },
+  {id:3,name:'Product 3',price:175  }
+  ]
+const total = cart.reduce((arr,product) =>arr.price  + product.price
+,0);
+console.log(total);
+
+
+
+
+
+//Challenge one
+
+
+const people=[
+  {
+    firstName:'John',
+    lastName:'Doe',
+    email:'john@gmail.com',
+    phone:'111-111-1111',
+    age:30
+  },
+  {
+    firstName: 'Jane',
+    lastName: 'Poe',
+    email: 'jane@gmail.com',
+    phone: '222-222-2222',
+    age: 25
+  },  
+  {
+    firstName: 'Bob',
+    lastName: 'Foe',
+    email: 'Bob@gmail.com',
+    phone: '333-333-3333',
+    age: 45
+  },
+  {
+    firstName: 'Sara',
+    lastName: 'Soe',
+    email: 'sara@gmail.com',
+    phone: '444-444-4444',
+    age: 19
+  },
+  {
+    firstName: 'Jose',
+    lastName: 'Koe',
+    email: 'jose@gmail.com',
+    phone: '555-555-5555',
+    age:23
+  }
+  ]
+
+
+
+
+
+const youngPeople= people.filter((list)=> list.age<=25)
+.map ((list)=>( {name:list.firstName+' '+ list.lastName,email:list.email}))
+
+
+console.log(youngPeople)
+
+
+//Challenge two
+const number5 = [2,-38,50,20,-12,-9,7]
+
+ const sumPositive = number5.filter((sum)=> sum>=0)
+ .reduce((sum,cur)=> sum+cur)
+
+console.log(sumPositive)
+
+//challenge 3
+const words = ['coder','developer' ,'programmer']
+
+const capitalizedWords = words.map
+((wor)=> wor[0].toUpperCase()+ wor.slice(1))
+
+
+
+console.log(capitalizedWords)
+
+
+
+
+
+
+
+
